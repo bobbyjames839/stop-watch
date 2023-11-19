@@ -1,0 +1,70 @@
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 200px;
+  font-family: Arial;
+  background-color: rgba(255, 255, 255, 0.15);
+  height: 220px;
+  padding: 0 20px;
+  border-radius: 20px;
+  position: fixed;
+  top: 20%;
+  bottom: 80%;
+}
+
+.minute, .second, .millisecond {
+  width: 210px;
+}
+
+.colon {
+  position: relative;
+  top: -15px;
+  margin-left: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 80px;
+}
+
+.start, .stop, .reset {
+  margin: 0 5px;
+  height: 50px;
+  width: 140px;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.start {
+  background-color: rgba(53, 183, 53, 0.7);
+}
+
+.stop {
+  display: none;
+  background-color: rgba(242, 9, 9, 0.7);
+}
+
+.reset {
+  background-color: rgba(157, 157, 157, 0.7);
+}
+
+body {
+  background-image: url('background1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+}
+
